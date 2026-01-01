@@ -9,7 +9,7 @@ import 'expense_history_screen.dart';  // Same folder
 import 'settings_screen.dart';  // Same folder
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => StatisticsScreen()),
+                MaterialPageRoute(builder: (context) => const StatisticsScreen()),
               );
             },
             tooltip: 'Statistics',
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SettingsScreen()),
+                MaterialPageRoute(builder: (context) => const SettingsScreen()),
               );
             },
             tooltip: 'Settings',
@@ -191,7 +191,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => ExpenseHistoryScreen(),
+                            builder: (context) => const ExpenseHistoryScreen(),
                           ),
                         );
                       },
@@ -221,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => AddExpenseScreen()),
+            MaterialPageRoute(builder: (context) => const AddExpenseScreen()),
           );
         },
         child: const Icon(Icons.add),

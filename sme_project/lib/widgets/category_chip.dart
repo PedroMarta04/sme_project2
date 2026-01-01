@@ -7,11 +7,11 @@ class CategoryChip extends StatelessWidget {
   final double percentage;
 
   const CategoryChip({
-    Key? key,
+    super.key,
     required this.category,
     required this.amount,
     required this.percentage,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

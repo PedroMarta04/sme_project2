@@ -7,7 +7,7 @@ import '../providers/expense_provider.dart';
 class ExpenseCard extends StatelessWidget {
   final Expense expense;
 
-  const ExpenseCard({Key? key, required this.expense}) : super(key: key);
+  const ExpenseCard({super.key, required this.expense});
 
   @override
   Widget build(BuildContext context) {

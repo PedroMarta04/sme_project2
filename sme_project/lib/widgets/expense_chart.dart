@@ -4,7 +4,7 @@ import '../models/category.dart';
 class ExpenseChart extends StatelessWidget {
   final Map<String, double> categoryTotals;
 
-  const ExpenseChart({Key? key, required this.categoryTotals}) : super(key: key);
+  const ExpenseChart({super.key, required this.categoryTotals});
 
   @override
   Widget build(BuildContext context) {

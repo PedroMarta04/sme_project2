@@ -103,7 +103,7 @@ class _ExpenseHistoryScreenState extends State<ExpenseHistoryScreen> {
                           ],
                         ),
                       );
-                    }).toList(),
+                    }),
                   ],
                   onChanged: (value) {
                     setState(() {

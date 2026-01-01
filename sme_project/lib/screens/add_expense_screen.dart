@@ -188,7 +188,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                 ),
-                child: Padding(
+                child: const Padding(
                   padding: EdgeInsets.all(16),
                   child: Text('Save Expense', style: TextStyle(fontSize: 16)),
                 ),
