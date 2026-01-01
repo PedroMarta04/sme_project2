@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135460265564",
+    "project_id": "sme-project-desktop",
+    "storage_bucket": "sme-project-desktop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135460265564:android:81fda3ea1b89925ca71099",
+        "android_client_info": {
+          "package_name": "com.example.sme_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhDboIPK2BrkJa9eENiv8AMb1YvpBdLfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
